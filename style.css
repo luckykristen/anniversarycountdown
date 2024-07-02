@@ -1,0 +1,77 @@
+body {
+    background-image: url(bg_photo.jpg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #eadfb4a7;
+    border: 3px solid black;
+    padding: 15px;
+    color: #973131;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.anniversary {
+    height: 300px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: #f5e7b2c2;
+    margin-top: 50px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.days, .hours, .minutes, .seconds {
+    font-size: 40px;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h4 {
+    font-size: 50px;
+    color: #973131;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.red {
+    color: red;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 30px;
+    }
+}
